@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player with Playlist</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="music-player">
+    <!-- Player -->
+    <div class="player">
+      <div class="album-cover">
+        <img src="https://c.saavncdn.com/895/Stay-English-2021-20210706223809-500x500.jpg" alt="Album Cover">
+      </div>
+      <div class="track-info">
+        <h2 id="track-title">STAY</h2>
+        <p id="artist-name">Ed sheeran</p>
+      </div>
+      <div class="controls">
+        <!-- Shuffle and Like Buttons -->
+        <button class="control-btn shuffle-btn">🔀</button>
+        <button class="control-btn">⏮️</button>
+        <button class="control-btn play-pause">⏯️</button>
+        <button class="control-btn">⏭️</button>
+        <button class="control-btn like-btn">❤️</button>
+      </div>
+      <div class="progress-bar">
+        <input type="range" value="0" id="progress" />
+      </div>
+    </div>
+
+    <!-- Playlist -->
+    <div class="playlist">
+      <h3>Playlist</h3>
+      <ul>
+        <li class="playlist-item active">
+          <span>1.Shape of You</span> - <span>Ed Sheeran</span>
+        </li>
+        <li class="playlist-item">
+          <span>2.Blinding Lights </span> - <span>Dua Lipa</span>
+        </li>
+        <li class="playlist-item">
+          <span>3.Levitating</span> - <span>Dua Lipa</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
